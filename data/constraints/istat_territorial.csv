@@ -2191,6 +2191,21 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 52_1044_DF_DCIS_SCUOLE_7,Primaria - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-07-22
 52_1044_DF_DCIS_SCUOLE_8,"Secondaria I grado - scuole, classi e alunni",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-08-15
 52_1044_DF_DCIS_SCUOLE_9,Secondaria I grado - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-07-22
+52_1045_DF_DCIS_SCUOLE1_1,Scuole - Principali dati,REF_AREA,nazionale,nazionale,1,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_10,Secondaria I grado - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_11,"Secondaria II grado - scuole, classi e studenti",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_12,Secondaria II grado - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_13,Secondaria II grado - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_14,Secondaria II grado - diplomati,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,132,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_15,Secondaria II grado - ripetenti per anno di corso,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_2,"Infanzia - scuole, classi, bambini",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_3,Infanzia - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_4,Infanzia - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_5,"Primaria - scuole, classi e alunni",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_6,Primaria - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_7,Primaria - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_8,"Secondaria I grado - scuole, classi e alunni",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
+52_1045_DF_DCIS_SCUOLE1_9,Secondaria I grado - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-10-12
 52_1194,Popolazione 15 anni e oltre per titolo di studio - regolamento precedente (fino al 2020),REF_AREA,regione,nazionale|ripartizione|regione,30,2026-08-15
 52_1194_DF_DCCV_POPTIT1_UNT2020_1,Popolazione per titolo di studio e età,REF_AREA,regione,nazionale|ripartizione|regione,6,2026-07-22
 52_1194_DF_DCCV_POPTIT1_UNT2020_2,Popolazione per titolo di studio e regioni,REF_AREA,regione,nazionale|ripartizione|regione,28,2026-07-22

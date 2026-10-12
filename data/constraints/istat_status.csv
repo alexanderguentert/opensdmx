@@ -2446,6 +2446,22 @@ df_id,df_description,status,source,n_dims,n_codes,error_count,last_error,checked
 52_1044_DF_DCIS_SCUOLE_7,Primaria - indicatori scolastici,ok,hub,5,146,0,"",2026-07-22
 52_1044_DF_DCIS_SCUOLE_8,"Secondaria I grado - scuole, classi e alunni",ok,hub,7,153,0,"",2026-08-15
 52_1044_DF_DCIS_SCUOLE_9,Secondaria I grado - insegnanti delle scuole statali,ok,hub,5,29,0,"",2026-07-22
+52_1045,Scuole,error,"",0,0,1,HubUnavailable: hub did not answer (timeout or HTTP error),2026-10-12
+52_1045_DF_DCIS_SCUOLE1_1,Scuole - Principali dati,ok,hub,5,11,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_10,Secondaria I grado - indicatori scolastici,ok,hub,5,149,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_11,"Secondaria II grado - scuole, classi e studenti",ok,hub,8,157,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_12,Secondaria II grado - insegnanti delle scuole statali,ok,hub,6,32,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_13,Secondaria II grado - indicatori scolastici,ok,hub,6,150,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_14,Secondaria II grado - diplomati,ok,hub,7,162,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_15,Secondaria II grado - ripetenti per anno di corso,ok,hub,8,153,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_2,"Infanzia - scuole, classi, bambini",ok,hub,7,152,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_3,Infanzia - insegnanti delle scuole statali,ok,hub,6,32,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_4,Infanzia - indicatori scolastici,ok,hub,5,146,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_5,"Primaria - scuole, classi e alunni",ok,hub,7,153,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_6,Primaria - insegnanti delle scuole statali,ok,hub,6,32,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_7,Primaria - indicatori scolastici,ok,hub,5,146,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_8,"Secondaria I grado - scuole, classi e alunni",ok,hub,7,153,0,"",2026-10-12
+52_1045_DF_DCIS_SCUOLE1_9,Secondaria I grado - insegnanti delle scuole statali,ok,hub,6,32,0,"",2026-10-12
 52_1194,Popolazione 15 anni e oltre per titolo di studio - regolamento precedente (fino al 2020),ok,hub,7,63,0,"",2026-08-15
 52_1194_DF_DCCV_POPTIT1_UNT2020_1,Popolazione per titolo di studio e età,ok,hub,6,36,0,"",2026-07-22
 52_1194_DF_DCCV_POPTIT1_UNT2020_2,Popolazione per titolo di studio e regioni,ok,hub,6,41,0,"",2026-07-22
