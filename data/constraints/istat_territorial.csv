@@ -814,6 +814,8 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 164_279_DF_DCIS_RICPOPRES1991_3,Valle d'Aosta/Vallée d'Aoste,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,78,2026-09-11
 164_279_DF_DCIS_RICPOPRES1991_4,Liguria,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,242,2026-09-11
 164_279_DF_DCIS_RICPOPRES1991_5,Lombardia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,1560,2026-09-11
+164_279_DF_DCIS_RICPOPRES1991_6,Provincia Autonoma Bolzano/Bozen,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,120,2026-10-13
+164_279_DF_DCIS_RICPOPRES1991_7,Provincia Autonoma Trento,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,227,2026-10-13
 164_279_DF_DCIS_RICPOPRES1991_8,Veneto,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,592,2026-09-11
 164_279_DF_DCIS_RICPOPRES1991_9,Friuli-Venezia Giulia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,226,2026-09-11
 164_305_DF_DCIS_RICPOPRES2001_1,"Italia, regioni, province",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,133,2026-08-04
@@ -1037,6 +1039,7 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 174_81_DF_DCCV_COPPIE1_5,"Coppia con o senza figli con donna di 25-64 anni, condizione lavorativa della coppia - reg.",REF_AREA,regione,nazionale|ripartizione|regione,26,2026-09-18
 174_81_DF_DCCV_COPPIE1_6,"Coppia con donna di 65 anni e più, titolo di studio della donna",REF_AREA,nazionale,nazionale,1,2026-09-17
 174_81_DF_DCCV_COPPIE1_7,Coppia con donna di 65 anni e più - reg.,REF_AREA,regione,nazionale|ripartizione|regione,26,2026-09-18
+174_82,Luoghi frequentati,REF_AREA,regione,nazionale|ripartizione|regione,34,2026-10-13
 174_82_DF_DCCV_LUOGHI_10,"Punti orari - sesso, età - rip. tipo di comune",REF_AREA,ripartizione,nazionale|ripartizione,12,2026-08-04
 174_82_DF_DCCV_LUOGHI_5,"Sesso, età - reg. tipo di comune",REF_AREA,regione,nazionale|ripartizione|regione,34,2026-08-18
 174_82_DF_DCCV_LUOGHI_7,"Bambini, sesso, condizione lavorativa dei genitori - rip. e tipo di comune",REF_AREA,ripartizione,nazionale|ripartizione,12,2026-08-05
@@ -1047,6 +1050,7 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 183_1163_DF_DICA_ASIAULP_TERRIFDATA_5,"Classe di addetti, settori economici (Ateco 4 cifre) - rip.",REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,9257,2026-08-18
 183_1163_DF_DICA_ASIAULP_TERRIFDATA_6,"Classe di addetti, settori economici (Ateco 3 cifre) - prov.",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,139,2026-07-17
 183_1163_DF_DICA_ASIAULP_TERRIFDATA_7,"Classe di addetti, settori economici (Ateco 2 cifre) - com.",REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,12471,2026-07-17
+183_203,Imprese - occupati,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,139,2026-10-13
 183_203_DF_DICA_ACDP_1,Imprese - occupati - Principali dati,REF_AREA,ripartizione,nazionale|ripartizione,6,2026-08-05
 183_203_DF_DICA_ACDP_10,"Settori economici (Ateco 3 cifre), età",REF_AREA,regione,nazionale|ripartizione|regione,28,2026-08-18
 183_203_DF_DICA_ACDP_11,"Settori economici (Ateco 3 cifre), paese di nascita",REF_AREA,regione,nazionale|ripartizione|regione,28,2026-08-18
@@ -1264,11 +1268,28 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 22_222_DF_DCSC_NONRESID_CONSTR_9,Fabbricati non residenziali nuovi per tipologia dell'impianto - ripartizioni e classi di comune,REF_AREA,ripartizione,nazionale|ripartizione,19,2026-07-17
 22_289,Popolazione residente  al 1° gennaio,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,8128,2026-07-17
 22_289_DF_DCIS_POPRES1_1,"Italia, regioni, province",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,139,2026-07-17
+22_289_DF_DCIS_POPRES1_10,Friuli Venezia Giulia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,222,2026-10-13
+22_289_DF_DCIS_POPRES1_11,Emilia Romagna,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,348,2026-10-13
 22_289_DF_DCIS_POPRES1_12,Toscana,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,288,2026-07-17
+22_289_DF_DCIS_POPRES1_13,Umbria,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,97,2026-10-13
+22_289_DF_DCIS_POPRES1_14,Marche,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,238,2026-10-13
+22_289_DF_DCIS_POPRES1_15,Lazio,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,386,2026-10-13
+22_289_DF_DCIS_POPRES1_16,Abruzzo,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,312,2026-10-13
+22_289_DF_DCIS_POPRES1_17,Molise,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,141,2026-10-13
+22_289_DF_DCIS_POPRES1_19,Puglia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,268,2026-10-13
 22_289_DF_DCIS_POPRES1_1_YOU,"Italia, regioni, province - Giovani",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,137,2026-09-11
+22_289_DF_DCIS_POPRES1_20,Basilicata,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,136,2026-10-13
+22_289_DF_DCIS_POPRES1_21,Calabria,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,412,2026-10-13
+22_289_DF_DCIS_POPRES1_22,Sicilia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,403,2026-10-13
+22_289_DF_DCIS_POPRES1_23,Sardegna,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,385,2026-10-13
 22_289_DF_DCIS_POPRES1_24,Tutti i comuni per singola età,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,11578,2026-07-17
 22_289_DF_DCIS_POPRES1_25,Tutti i comuni per stato civile,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,11578,2026-07-17
 22_289_DF_DCIS_POPRES1_26,Tutti i comuni per singola età e stato civile,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,12471,2026-07-17
+22_289_DF_DCIS_POPRES1_3B,Piemonte,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,1216,2026-10-13
+22_289_DF_DCIS_POPRES1_5,Liguria,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,241,2026-10-13
+22_289_DF_DCIS_POPRES1_6,Lombardia,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,1538,2026-10-13
+22_289_DF_DCIS_POPRES1_8,Provincia Autonoma Trento,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,184,2026-10-13
+22_289_DF_DCIS_POPRES1_9,Veneto,REF_AREA,comune,nazionale|ripartizione|regione|provincia|comune,586,2026-10-13
 22_293,Indicatori  demografici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,137,2026-08-06
 22_293_DF_DCIS_INDDEMOG1_1,Indicatori demografici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,137,2026-07-17
 22_315_DF_DCIS_POPORESBIL1_1,Dati annuali,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,137,2026-08-18
@@ -2191,6 +2212,7 @@ df_id,df_description,dimension_id,max_level,levels,n_territories,checked_at
 52_1044_DF_DCIS_SCUOLE_7,Primaria - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-07-22
 52_1044_DF_DCIS_SCUOLE_8,"Secondaria I grado - scuole, classi e alunni",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-08-15
 52_1044_DF_DCIS_SCUOLE_9,Secondaria I grado - insegnanti delle scuole statali,REF_AREA,regione,nazionale|ripartizione|regione,24,2026-07-22
+52_1045,Scuole,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-13
 52_1045_DF_DCIS_SCUOLE1_1,Scuole - Principali dati,REF_AREA,nazionale,nazionale,1,2026-10-12
 52_1045_DF_DCIS_SCUOLE1_10,Secondaria I grado - indicatori scolastici,REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
 52_1045_DF_DCIS_SCUOLE1_11,"Secondaria II grado - scuole, classi e studenti",REF_AREA,provincia,nazionale|ripartizione|regione|provincia,136,2026-10-12
