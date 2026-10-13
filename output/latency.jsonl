@@ -1870,3 +1870,7 @@
 {"ts": "2026-10-13T12:14:35Z", "provider": "istat", "dataset": "41_269_DF_DCIS_INCIDENTISTR1_1", "call": "get", "duration_s": 300.012, "status": "timeout", "http_code": null, "n_rows": null, "error": "timeout after 300s"}
 {"ts": "2026-10-13T12:19:50Z", "provider": "eurostat", "dataset": "TRAN_SF_ROADNU", "call": "info", "duration_s": 0.491, "status": "ok", "http_code": 200, "n_rows": null, "error": null}
 {"ts": "2026-10-13T12:20:05Z", "provider": "eurostat", "dataset": "TRAN_SF_ROADNU", "call": "get", "duration_s": 0.493, "status": "ok", "http_code": 200, "n_rows": 4, "error": null}
+{"ts": "2026-10-13T18:12:08Z", "provider": "istat", "dataset": "41_269_DF_DCIS_INCIDENTISTR1_1", "call": "info", "duration_s": 1.275, "status": "ok", "http_code": 200, "n_rows": null, "error": null}
+{"ts": "2026-10-13T18:12:24Z", "provider": "istat", "dataset": "41_269_DF_DCIS_INCIDENTISTR1_1", "call": "get", "duration_s": 300.007, "status": "timeout", "http_code": null, "n_rows": null, "error": "timeout after 300s"}
+{"ts": "2026-10-13T18:17:39Z", "provider": "eurostat", "dataset": "TRAN_SF_ROADNU", "call": "info", "duration_s": 0.533, "status": "ok", "http_code": 200, "n_rows": null, "error": null}
+{"ts": "2026-10-13T18:17:54Z", "provider": "eurostat", "dataset": "TRAN_SF_ROADNU", "call": "get", "duration_s": 0.504, "status": "ok", "http_code": 200, "n_rows": 4, "error": null}
