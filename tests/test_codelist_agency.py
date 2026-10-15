@@ -92,14 +92,11 @@ def test_description_requests_the_declared_agency():
     assert description == "Frequency"
 
 
-def test_bundesbank_is_configured_for_its_own_codelist_agency():
+def test_bundesbank_is_configured_for_its_own_codelist_agency(monkeypatch):
     """The portal declares it; a provider entry without the key keeps `ALL`."""
-    from opensdmx.base import PROVIDERS, set_provider
+    from opensdmx import base
 
-    set_provider("bundesbank")
-    try:
-        assert _codelist_path("CL_BBK_STD_FREQ") == "metadata/codelist/BBK/CL_BBK_STD_FREQ"
-    finally:
-        set_provider("eurostat")
+    monkeypatch.setattr(base, "_active_provider", "bundesbank")
+    assert _codelist_path("CL_BBK_STD_FREQ") == "metadata/codelist/BBK/CL_BBK_STD_FREQ"
 
-    assert "codelist_agency" not in PROVIDERS["eurostat"]
+    assert "codelist_agency" not in base.PROVIDERS["eurostat"]
