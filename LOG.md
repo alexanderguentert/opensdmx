@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-10-15 - fix: `values` and `info` descriptions work on Bundesbank
+
+- **`opensdmx values <df> <DIM> -p bundesbank` no longer returns 404** (#87, closes #85). Codelist paths now go through `_codelist_path()`, which applies `metadata_prefix` and reads a new `codelist_agency` key from `portals.json` (default `ALL`). Bundesbank declares `BBK`; every other provider keeps `codelist/ALL/...`. The `description` column of `info` is filled for the same reason.
+- **Checked live**: Bundesbank `values BBEE1 BBK_STD_FREQ` returns the six frequency codes and `--explain` shows `metadata/codelist/BBK/CL_BBK_STD_FREQ`; Eurostat `values UNE_RT_A geo` unchanged, `--explain` shows `codelist/ALL/GEO`.
+- **Release note**: a Bundesbank `description` cached empty by the old 404 stays empty until `METADATA_CACHE_TTL` expires; `values` was never cached on failure.
+- Follow-up: the Bundesbank config test restores the active provider via `monkeypatch` instead of forcing `eurostat`.
+
 ## 2026-10-10 - skill: two answering principles in `sdmx-explorer`
 
 - **«One dataflow that answers the question is the answer — stop there»**: no sibling dataflows, extra breakdowns or cross-checks the user did not ask for; other options listed as one-liners at the end.

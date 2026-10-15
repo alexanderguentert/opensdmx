@@ -98,7 +98,7 @@ Quirks: OECD uses `catalog_agency = all` for catalog discovery and a dedicated 6
 | `rate_limit` | 0.5 s |
 | `language` | `en` |
 
-Quirks: Bundesbank uses a `metadata` prefix for structure endpoints and `BBK` as the datastructure agency.
+Quirks: Bundesbank uses a `metadata` prefix for structure endpoints and `BBK` as the datastructure and codelist agency (`codelist/ALL/...` returns 404).
 
 ### worldbank
 
