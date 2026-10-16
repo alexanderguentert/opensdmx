@@ -196,21 +196,16 @@
     "last_n_supported": true,
     "categories_supported": false
   },
-    "bfs": {
+  "bfs": {
     "name": "Swiss Federal Statistical Office",
-    "aliases": ["fso", "bfs"],
-    "description": "Swiss Federal Statistical Office (BFS/FSO). Covers population, economy, employment, prices, education, health, and environment for Switzerland. Primary source for Swiss official statistics. Uses SDMX API v1 endpoint with agency-specific dataflows (e.g., CH1.AHBB). Note: lastNObservations/firstNObservations are not supported; use startPeriod/endPeriod instead.",
+    "aliases": ["fso"],
+    "description": "Swiss Federal Statistical Office (BFS/FSO). Covers population, economy, employment, prices, education, health, and environment for Switzerland. Primary source for Swiss official statistics. Uses SDMX API v1 endpoint with agency-specific dataflows (e.g., CH1.AHBB).",
     "base_url": "https://disseminate.stats.swiss/rest",
     "agency_id": "all",
-    "catalog_agency": "all",
-    "datastructure_agency": "ALL",
     "rate_limit": 1.0,
     "language": "en",
     "constraints_supported": false,
-    "last_n_supported": false,
-    "categories_supported": true,
-    "data_format_param": "csv",
-    "data_path_suffix": "/...",
-    "unsupported_params": ["lastNObservations", "firstNObservations"]
+    "last_n_supported": true,
+    "categories_supported": true
   }
 }
