@@ -209,7 +209,7 @@
     "constraints_supported": false,
     "last_n_supported": false,
     "categories_supported": true,
-    "data_accept": "application/vnd.sdmx.genericdata+xml; charset=utf-8; version=2.1",
+    "data_format_param": "csv",
     "data_path_suffix": "/...",
     "unsupported_params": ["lastNObservations", "firstNObservations"]
   }
