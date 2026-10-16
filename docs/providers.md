@@ -206,7 +206,8 @@ Quirks: INPS is **hub-only** — its classic SDMX-REST NSI endpoint is blocked b
 | `agency_id` | `all` |
 | `rate_limit` | 1.0 s |
 | `language` | `en` |
-| `constraints_supported` | `false` |
+| `constraints_supported` | `true` |
+| `constraint_path_suffix` | `/all` |
 | `last_n_supported` | `true` |
 | `categories_supported` | `true` |
 

@@ -204,7 +204,9 @@
     "agency_id": "all",
     "rate_limit": 1.0,
     "language": "en",
-    "constraints_supported": false,
+    "constraint_params": {},
+    "constraint_path_suffix": "/all",
+    "constraints_supported": true,
     "last_n_supported": true,
     "categories_supported": true
   }
